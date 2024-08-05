@@ -1,0 +1,51 @@
+.total-box__left {
+  padding-right: 20px;
+}
+
+.total-box {
+  display: flex;
+}
+
+.total-box__left {
+  border-right: 1px solid #f0f0f0;
+  flex: 1;
+}
+
+.total-box__right {
+  flex: 1;
+}
+
+.up-arrow,
+.total-box__left {
+  margin-right: 24px;
+}
+
+.price {
+  line-height: 150%;
+  margin-bottom: 14px;
+}
+
+.price-currency {
+  line-height: 21px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #90a3bf;
+  margin-left: 8px;
+}
+
+.total-box p,
+.box p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+
+.percentage-increase {
+  color: #7fb519;
+}
+
+.percentage-decrease {
+  color: #ff4423;
+}

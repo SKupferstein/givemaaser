@@ -1,0 +1,42 @@
+/* -------------- SIDEBAR -------------- */
+
+.sidebar {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: space-between;
+  border-right: 1px solid #f3f5f7;
+  padding: 0 16px;
+  overflow: auto;
+}
+
+.sidebar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 56px -30px;
+}
+
+.sidebar__logo-header {
+  margin-left: 14px;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-nav__header {
+  font-size: 14px;
+  line-height: 21px;
+  color: #90a3bf;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.side-nav__header,
+.side-nav__item > span {
+  letter-spacing: -2%;
+  font-weight: 500;
+}
